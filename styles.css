@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'ArbFONTS-ElMessiri-Regular-2';
-    src: url('/fonts/ArbFONTS-ElMessiri-Regular-2.woff2') format('woff2'),
-         url('/fonts/ArbFONTS-ElMessiri-Regular-2.woff');
+    src: url('fonts/ArbFONTS-ElMessiri-Regular-2.woff2') format('woff2'),
+         url('fonts/ArbFONTS-ElMessiri-Regular-2.woff');
 }
 
 /* إعدادات أساسية */
