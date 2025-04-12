@@ -1,0 +1,94 @@
+:root {
+    --main-color: #10111a; /* اللون الرئيسي */
+    --secondary-color: #1a1b25; /* اللون الثانوي */
+    --background-color: #ebeae4; /* لون الخلفية */
+    --text-color: #6b9e92; /* لون النص */
+    --button-color: #28a745; /* لون الأزرار */
+}
+
+@font-face {
+    font-family: 'ArbFONTS-ElMessiri-Regular-2';
+    src: url('/fonts/ArbFONTS-ElMessiri-Regular-2.woff2') format('woff2'),
+         url('/fonts/ArbFONTS-ElMessiri-Regular-2.woff');
+}
+
+/* إعدادات أساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    font-family: 'ArbFONTS-ElMessiri-Regular-2';
+
+    h1, h2, h3, h4, h5, h6 {
+    font-family: 'ArbFONTS-ElMessiri-Regular-2', sans-serif;
+}
+
+p{
+    font-family: 'ArbFONTS-ElMessiri-Regular-2', sans-serif;
+}
+
+a{
+    font-family: 'ArbFONTS-ElMessiri-Regular-2', sans-serif;
+}
+
+div{
+    font-family: 'ArbFONTS-ElMessiri-Regular-2', sans-serif;
+}
+
+button, .btn {
+    font-family: 'ArbFONTS-ElMessiri-Regular-2', sans-serif;
+}
+}
+
+
+/* قسم البطل (Hero Section) */
+.hero {
+    background-color: #ECF0F1;
+    text-align: center;
+    padding: 100px 20px;
+    height: 100vh; /* يجعل القسم بارتفاع الشاشة بالكامل */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 36px;
+        color: #2C3E50;
+        margin-bottom: 15px;
+    }
+
+    img {
+        max-width: 300px; /* ✅ غيّر هذه القيمة حسب الحجم اللي تريده */
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+    p {
+        font-size: 20px;
+        color: #7F8C8D;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    .soon {
+        font-size: 36px;
+        color: #2C3E50;
+        margin-bottom: 15px;
+        margin-top: -15px;
+    }
+}
+
+
+
+
+
+
